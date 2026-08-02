@@ -1,0 +1,1 @@
+Amazon marketplace integration scaffold.

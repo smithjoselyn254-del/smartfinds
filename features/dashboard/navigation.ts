@@ -1,0 +1,15 @@
+export const dashboardSections = [
+  { slug: "overview", title: "Dashboard" },
+  { slug: "products", title: "Products" },
+  { slug: "orders", title: "Orders" },
+  { slug: "inventory", title: "Inventory" },
+  { slug: "customers", title: "Customers" },
+  { slug: "analytics", title: "Analytics" },
+  { slug: "ai-assistant", title: "AI Assistant" },
+  { slug: "marketplace-connections", title: "Marketplace Connections" },
+  { slug: "payment-settings", title: "Payment Settings" },
+  { slug: "shipping", title: "Shipping" },
+  { slug: "messages", title: "Messages" },
+  { slug: "reports", title: "Reports" },
+  { slug: "settings", title: "Settings" },
+] as const;

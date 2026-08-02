@@ -1,0 +1,1 @@
+Etsy marketplace integration scaffold.

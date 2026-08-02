@@ -1,17 +1,28 @@
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Section } from "@/components/ui/Section";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 p-8 text-center text-zinc-900 dark:bg-black dark:text-zinc-50">
-      <div className="max-w-2xl space-y-6">
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-zinc-500">
-          SmartFinds
-        </p>
-        <h1 className="text-4xl font-semibold tracking-tight sm:text-6xl">
-          Build your next idea with Next.js and Tailwind.
-        </h1>
-        <p className="text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-          This app is ready for your next feature. Start editing app/page.tsx to customize it.
-        </p>
-      </div>
+    <main className="min-h-screen bg-slate-50">
+      <Section>
+        <div className="text-center">
+          <h1 className="text-6xl font-bold text-slate-900">SmartFinds</h1>
+
+          <p className="mt-6 text-lg text-slate-600">
+            One Platform. Every Marketplace. Powered by AI.
+          </p>
+
+          <div className="mt-10 flex justify-center gap-4">
+            <Button>Start Selling</Button>
+            <Button variant="outline">Learn More</Button>
+          </div>
+
+          <Card className="mx-auto mt-16 max-w-xl">
+            🎉 SmartFinds design system is working.
+          </Card>
+        </div>
+      </Section>
     </main>
   );
 }

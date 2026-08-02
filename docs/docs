@@ -1,0 +1,8 @@
+docs/
+├── architecture.md
+├── roadmap.md
+├── api.md
+├── integrations.md
+├── database.md
+├── ui-guidelines.md
+└── contributing.md

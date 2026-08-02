@@ -1,0 +1,1 @@
+PayPal marketplace integration scaffold.

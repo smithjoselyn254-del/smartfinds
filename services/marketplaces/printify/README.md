@@ -1,0 +1,1 @@
+Printify marketplace integration scaffold.
